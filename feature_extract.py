@@ -103,7 +103,8 @@ def model_feature(model, dataloader, feature_save_dir, datamodal, dataset, featu
 
 if __name__ == "__main__":
 
-    device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+    # chang cuda id to 0 since only one gpu on my machine
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print("Device being used:", device)
     parser = argparse.ArgumentParser()
     parser.add_argument("--snapshot", help='path of testing model_weight', default='./model/i3d/i3d_model_weight/model_kinetics_rgb.pth', type=str)
@@ -115,7 +116,9 @@ if __name__ == "__main__":
     snapshot = args.snapshot
     Dataset = args.dataset
     datamodal = args.datamodal
-    data_path = '/home/tu-wan/windowswan'
+
+    # change path to my own path
+    data_path = '/home/boweiren/Workspace'
     origin_filelist = './dataset/{}/{}/{}_list.txt'.format(Dataset,args.modelName, datamodal)
     origin_labellist = './dataset/{}/{}/label.txt'.format(Dataset,args.modelName)
     trainfile_list = './dataset/{}/{}/{}_list_numJoints.txt'.format(Dataset,args.modelName, datamodal)

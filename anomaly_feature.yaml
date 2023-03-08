@@ -72,4 +72,4 @@ dependencies:
   - zstd=1.4.5=h6597ccf_2
   - pip:
     - seaborn==0.9.1
-prefix: /home/tu-wan/windows2t/anaconda3/envs/anomaly_icme
+prefix: /home/boweiren/anaconda3/envs/anomaly_icme

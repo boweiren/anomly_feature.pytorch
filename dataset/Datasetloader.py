@@ -199,7 +199,7 @@ def txttans(origin_filelist,origin_labellist,processed_filelist,processed_labell
                                         framenum = 0
                                         temp_file.append(file)
                                         temp_lab.append(label)
-                                elif int(file_split[-1].split('.')[0].split('_')[-1]) < framenum:
+                                elif int(file_split[-1].split('.')[0].split('_')[-2][-3:]) < framenum:
                                     temp_file.clear()
                                     temp_lab.clear()
                                     framenum = 0
