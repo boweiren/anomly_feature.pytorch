@@ -1,0 +1,11 @@
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/StayLong/img_00001.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/SuspiciousRun/img_00001.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/SuspiciousRun/img_00002.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/PackageTheft/img_00001.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/PackageTheft/img_00002.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Sneak/img_00001.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Sneak/img_00002.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Normal/img_00001.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Normal/img_00002.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Normal/img_00003.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Armed/img_00001.jpg

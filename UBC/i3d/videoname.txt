@@ -1,0 +1,6 @@
+Armed
+PackageTheft
+StayLong
+Sneak
+SuspiciousRun
+Normal

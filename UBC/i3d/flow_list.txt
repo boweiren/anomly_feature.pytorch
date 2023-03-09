@@ -1,0 +1,11 @@
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/StayLong/flow_x_00001.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/StayLong/flow_y_00001.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/SuspiciousRun/flow_x_00001.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/SuspiciousRun/flow_y_00001.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/SuspiciousRun/flow_x_00002.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/SuspiciousRun/flow_y_00002.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/PackageTheft/flow_x_00001.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/PackageTheft/flow_y_00001.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/PackageTheft/flow_x_00002.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/PackageTheft/flow_y_00002.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Sneak/flow_x_00001.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Sneak/flow_y_00001.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Sneak/flow_x_00002.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Sneak/flow_y_00002.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Normal/flow_x_00001.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Normal/flow_y_00001.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Normal/flow_x_00002.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Normal/flow_y_00002.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Normal/flow_x_00003.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Normal/flow_y_00003.jpg
+/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Armed/flow_x_00001.jpg:/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos/Armed/flow_y_00001.jpg
