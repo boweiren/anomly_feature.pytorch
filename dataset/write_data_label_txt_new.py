@@ -40,14 +40,16 @@ def main(original_video_dict,dataset,dataset_mode):
                             t.write(str(framegt[i-1])+':'+str(classgt[i-1])+'\n')
 
 if __name__ == '__main__':
-    data_root = '/home/tu-wan/windowswan/dataset'
-    dataset = 'shanghaitech'
+    data_root = '/home/boweiren/Workspace/anomly_feature.pytorch/Anomaly-Videos-frames'
+    dataset = 'UBC'
     dataset_mode = 'i3d'  # i3d or c3d
     original_video = []
     original_video_dict = {}
 
     if dataset == 'UCF_Crime':
         videopaths = glob.glob(os.path.join(data_root, dataset, 'denseflow', '*/*'))
+    elif dataset == 'UBC':
+        videopaths = glob.glob(os.path.join(data_root, '*/*'))
     else:
         videopaths = glob.glob(os.path.join(data_root, dataset, 'denseflow', '*')) #ped1, ped2, shanghaitech or avenue
     videonames = []
@@ -55,6 +57,7 @@ if __name__ == '__main__':
         videoname = videopath.split('/')[-1]
         videonames.append(videoname)
         original_video_dict[videoname] = os.path.join(videopath)
+    print('original_video_dict: ', original_video_dict)
     if os.path.exists('./{}/{}'.format(dataset, dataset_mode)) == 0:
         os.makedirs('./{}/{}'.format(dataset, dataset_mode))
     np.savetxt('./{}/{}/videoname.txt'.format(dataset, dataset_mode), np.asarray(videonames).reshape(-1),fmt='%s')
